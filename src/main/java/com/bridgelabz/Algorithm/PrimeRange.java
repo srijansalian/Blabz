@@ -5,6 +5,7 @@ import com.bridgelabz.util.util;
 public class PrimeRange {
 	static void prime(int a,int b) {
 		int flag=0;
+		int arr[]=new int[b];
 		for(int i=a;i<=b;i++) {
 			for(int j=2;j<i;j++) {
 				if(i%j==0) {
